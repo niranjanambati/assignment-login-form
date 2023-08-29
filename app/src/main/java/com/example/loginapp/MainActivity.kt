@@ -37,7 +37,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             LoginappTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier
                         .fillMaxSize()
@@ -67,7 +66,7 @@ fun LoginForm()
 
         Button(modifier= Modifier.align(Alignment.CenterHorizontally),onClick={}, colors = buttonColors(
             Color.Black)){
-            Text(text = "Submit")
+            Text(text = "Login")
         }
     }
 }
